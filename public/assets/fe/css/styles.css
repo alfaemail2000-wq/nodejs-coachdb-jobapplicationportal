@@ -1,0 +1,574 @@
+/*!* ================================*/
+/*   JOB CARD STYLING*/
+/*================================ *!*/
+
+/*!* Job-Card Container *!*/
+/*.job-container {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 12px;*/
+/*    border-radius: 14px;*/
+/*    padding: 24px;*/
+/*    margin: 20px 0;*/
+/*    box-shadow: 0 6px 20px rgba(0,0,0,0.08);*/
+/*    background-color: #eaf6ff;*/
+/*    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;*/
+/*    font-family: "Segoe UI", Tahoma, sans-serif;*/
+/*    position: relative;*/
+/*    border: 3px solid #8e44ad;*/
+/*}*/
+
+/*.job-container:hover {*/
+/*    transform: translateY(-5px);*/
+/*    box-shadow: 0 12px 25px rgba(0,0,0,0.15);*/
+/*    border-color: #9b59b6;*/
+/*}*/
+
+/*.job-title {*/
+/*    font-size: 1.8rem;*/
+/*    font-weight: 600;*/
+/*    margin-bottom: 8px;*/
+/*}*/
+
+/*.job-description,*/
+/*.job-requirements {*/
+/*    font-size: 1.1rem;*/
+/*    line-height: 1.6;*/
+/*    color: #555;*/
+/*}*/
+
+/*.job-description::before {*/
+/*    content: "Jobbeschreibung: ";*/
+/*    font-weight: 700;*/
+/*    color: #2c3e50;*/
+/*    display: block;*/
+/*    margin-bottom: 4px;*/
+/*}*/
+
+/*.job-requirements:nth-of-type(2)::before {*/
+/*    content: "Anforderungen: ";*/
+/*    font-weight: 700;*/
+/*    color: #2c3e50;*/
+/*    display: block;*/
+/*    margin-bottom: 4px;*/
+/*}*/
+
+/*.job-requirements:nth-of-type(3)::before {*/
+/*    content: "Gehalt: ";*/
+/*    font-weight: 700;*/
+/*    color: #2c3e50;*/
+/*    display: block;*/
+/*    margin-bottom: 4px;*/
+/*}*/
+
+/*!* Job Card Buttons *!*/
+/*.job-container .btn {*/
+/*    align-self: flex-end;*/
+/*    padding: 10px 20px;*/
+/*    border: none;*/
+/*    border-radius: 6px;*/
+/*    font-size: 0.95rem;*/
+/*    cursor: pointer;*/
+/*    transition: background-color 0.2s ease, transform 0.2s ease;*/
+/*    font-weight: 600;*/
+/*}*/
+
+/*.btn.primary {*/
+/*    background-color: #3498db;   !* blue *!*/
+/*    color: #fff;*/
+/*    box-shadow: 0 2px 6px rgba(52, 152, 219, 0.4);*/
+/*    transition: background-color 0.25s ease, box-shadow 0.25s ease, transform 0.2s ease;*/
+/*}*/
+
+/*.btn.primary:hover {*/
+/*    background-color: #2c80b4;*/
+/*    box-shadow: 0 4px 10px rgba(44, 128, 180, 0.5);*/
+/*    transform: translateY(-2px);*/
+/*}*/
+
+/*.btn.primary:active {*/
+/*    transform: translateY(0);*/
+/*    box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);*/
+/*}*/
+
+/*!* ================================*/
+/*   MODAL*/
+/*================================ *!*/
+
+/*.modal-overlay {*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background: rgba(0,0,0,0.5);*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    z-index: 1000;*/
+/*}*/
+
+/*.modal-container {*/
+/*    background: white;*/
+/*    padding: 2rem;*/
+/*    border-radius: 12px;*/
+/*    max-width: 450px;*/
+/*    width: 90%;*/
+/*    box-shadow: 0 10px 25px rgba(0,0,0,0.3);*/
+/*    animation: fadeIn 0.3s ease;*/
+/*    font-family: "Segoe UI", Tahoma, sans-serif;*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 12px;*/
+/*}*/
+
+/*.modal-container h2 {*/
+/*    margin-top: 0;*/
+/*    margin-bottom: 1.2rem;*/
+/*    font-size: 1.4rem;*/
+/*    font-weight: 600;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.modal-container input {*/
+/*    width: 100%;*/
+/*    padding: 10px;*/
+/*    margin-bottom: 1rem;*/
+/*    border: 1px solid #ccc;*/
+/*    border-radius: 5px;*/
+/*    font-size: 0.95rem;*/
+/*}*/
+
+/*!* Modal Buttons Row *!*/
+/*.modal-container .btn-row {*/
+/*    display: flex;*/
+/*    justify-content: space-between; !* submit left, close right *!*/
+/*    gap: 10px;*/
+/*}*/
+
+/*!* Submit Button inside Modal *!*/
+/*.modal-container .btn.primary {*/
+/*    background-color: #3498db;   !* blue *!*/
+/*    color: #fff;*/
+/*    box-shadow: 0 2px 6px rgba(52, 152, 219, 0.4);*/
+/*}*/
+
+/*.modal-container .btn.primary:hover {*/
+/*    background-color: #2c80b4;*/
+/*    box-shadow: 0 4px 10px rgba(44, 128, 180, 0.5);*/
+/*    transform: translateY(-2px);*/
+/*}*/
+
+/*.modal-container .btn.primary:active {*/
+/*    transform: translateY(0);*/
+/*    box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);*/
+/*}*/
+
+/*!* Close button *!*/
+/*.modal-container .btn.close {*/
+/*    background: #ccc;*/
+/*    color: black;*/
+/*}*/
+
+/*.modal-container .btn.close:hover {*/
+/*    background: #b3b3b3;*/
+/*}*/
+
+/*!* ================================*/
+/*   FILE UPLOAD INPUT*/
+/*================================ *!*/
+
+/*input#cvUpload {*/
+/*    font-family: "Segoe UI", Tahoma, sans-serif;*/
+/*    font-size: 0.95rem;*/
+/*    color: #333;*/
+/*    background-color: #fff;  !* white filename area *!*/
+/*    border: 1px solid #ccc;*/
+/*    padding: 6px;*/
+/*    border-radius: 5px;*/
+/*}*/
+
+/*!* Only style the button part of the file input *!*/
+/*input#cvUpload::file-selector-button {*/
+/*    background-color: #8e44ad;    !* purple button *!*/
+/*    color: #fff;*/
+/*    border: none;*/
+/*    padding: 10px 20px;*/
+/*    border-radius: 6px;*/
+/*    cursor: pointer;*/
+/*    font-weight: 600;*/
+/*    font-size: 1rem;*/
+/*    transition: background-color 0.2s ease, transform 0.2s ease;*/
+/*}*/
+
+/*input#cvUpload::file-selector-button:hover {*/
+/*    background-color: #732d91;*/
+/*    transform: translateY(-1px);*/
+/*}*/
+
+/*!* ================================*/
+/*   KEYFRAMES*/
+/*================================ *!*/
+/*@keyframes fadeIn {*/
+/*    from { opacity: 0; transform: translateY(-10px); }*/
+/*    to { opacity: 1; transform: translateY(0); }*/
+/*}*/
+
+
+
+
+
+
+/*!* Container für Buttons im Modal *!*/
+/*.modal-container .btn-row {*/
+/*    display: flex;*/
+/*    justify-content: space-between; !* Submit links, Close rechts *!*/
+/*    margin-top: 1rem;*/
+/*    gap: 10px; !* Abstand zwischen Buttons *!*/
+/*}*/
+
+/*!* Buttons behalten ihr ursprüngliches Styling *!*/
+/*.modal-container .btn-row .btn {*/
+/*    padding: 10px 16px;*/
+/*    border-radius: 5px;*/
+/*    font-weight: 600;*/
+/*    font-size: 0.95rem;*/
+/*    cursor: pointer;*/
+/*    transition: background-color 0.2s ease, transform 0.2s ease;*/
+/*}*/
+
+
+
+/*.jobs-header {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*    padding: 10px 15px;*/
+/*    background: linear-gradient(90deg, #4facfe, #5d86b1);*/
+/*    border-radius: 8px;*/
+/*    margin-bottom: 20px;*/
+/*    color: white;*/
+/*}*/
+
+/*.jobs-header h1 {*/
+/*    margin: 0;*/
+/*    font-size: 1.5rem;*/
+/*}*/
+
+/*.logout-btn {*/
+/*    background-color: #ff4d4d;*/
+/*    color: white;*/
+/*    border: none;*/
+/*    padding: 8px 14px;*/
+/*    border-radius: 5px;*/
+/*    cursor: pointer;*/
+/*    font-weight: bold;*/
+/*    transition: background 0.3s ease;*/
+/*}*/
+
+/*.logout-btn:hover {*/
+/*    background-color: #ff1a1a;*/
+/*}*/
+
+/* ================================
+   JOB CARD STYLING (an Login-Farben angepasst)
+================================ */
+
+.job-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-radius: 14px;
+    padding: 24px;
+    margin: 20px 0;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    background: linear-gradient(135deg, #f0f4ff, #e3e9ff);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    position: relative;
+    border: 2px solid #5c6bc0;
+}
+
+.job-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(92, 107, 192, 0.25);
+    border-color: #3f51b5;
+}
+
+.job-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #3f51b5;
+}
+
+.job-description,
+.job-requirements {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #444;
+}
+
+.job-description::before {
+    content: "Jobbeschreibung: ";
+    font-weight: 700;
+    color: #2c3e50;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.job-requirements:nth-of-type(2)::before {
+    content: "Anforderungen: ";
+    font-weight: 700;
+    color: #2c3e50;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.job-requirements:nth-of-type(3)::before {
+    content: "Gehalt: ";
+    font-weight: 700;
+    color: #2c3e50;
+    display: block;
+    margin-bottom: 4px;
+}
+
+/* Buttons in den Job Cards */
+.job-container .btn {
+    align-self: flex-end;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    font-weight: 600;
+    background-color: #5c6bc0;
+    color: white;
+    transition: background-color 0.25s ease, box-shadow 0.25s ease, transform 0.2s ease;
+    box-shadow: 0 2px 6px rgba(92, 107, 192, 0.4);
+}
+
+.job-container .btn:hover {
+    background-color: #3f51b5;
+    box-shadow: 0 4px 10px rgba(63, 81, 181, 0.5);
+    transform: translateY(-2px);
+}
+
+.job-container .btn:active {
+    transform: translateY(0);
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* ================================
+   HEADER MIT LOGOUT BUTTON
+================================ */
+
+.jobs-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 20px;
+    background: linear-gradient(90deg, #5c6bc0, #3f51b5);
+    border-radius: 12px;
+    margin-bottom: 20px;
+    color: white;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.jobs-header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* Logout Button */
+.logout-btn {
+    background-color: white;
+    color: #3f51b5;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: background 0.3s ease, color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.3);
+}
+
+.logout-btn:hover {
+    background-color: #3f51b5;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.logout-btn:active {
+    transform: translateY(0);
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* ================================
+   MODAL STYLING (unverändert)
+================================ */
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    max-width: 450px;
+    width: 90%;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    animation: fadeIn 0.3s ease;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.modal-container h2 {
+    margin-top: 0;
+    margin-bottom: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.modal-container input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 0.95rem;
+}
+
+/* Button Row */
+.modal-container .btn-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    gap: 10px;
+}
+
+.modal-container .btn-row .btn {
+    flex: 1;
+    padding: 12px 0;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+/* Bewerbung absenden */
+.modal-container .btn.primary {
+    background-color: #3498db;
+    color: #fff;
+    box-shadow: 0 2px 6px rgba(52, 152, 219, 0.4);
+}
+
+.modal-container .btn.primary:hover {
+    background-color: #2c80b4;
+    box-shadow: 0 4px 10px rgba(44, 128, 180, 0.5);
+    transform: translateY(-2px);
+}
+
+.modal-container .btn.primary:active {
+    transform: translateY(0);
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Schließen */
+.modal-container .btn.close {
+    background: #ccc;
+    color: black;
+}
+
+.modal-container .btn.close:hover {
+    background: #b3b3b3;
+}
+
+/* File Upload */
+input#cvUpload {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    font-size: 0.95rem;
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+input#cvUpload::file-selector-button {
+    background-color: #8e44ad;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+input#cvUpload::file-selector-button:hover {
+    background-color: #732d91;
+    transform: translateY(-1px);
+}
+
+/* Fade In */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
+/* ================================
+   JOB SEARCH BAR
+================================ */
+
+.job-search-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.job-search-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 16px;
+    font-size: 1rem;
+    border: 2px solid #5c6bc0;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f5f6ff;
+    color: #333;
+    box-shadow: 0 2px 6px rgba(92, 107, 192, 0.1);
+    transition: all 0.25s ease;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+.job-search-input:focus {
+    border-color: #3f51b5;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(63, 81, 181, 0.25);
+}
+
+.job-search-input::placeholder {
+    color: #888;
+    font-style: italic;
+}
+
+
