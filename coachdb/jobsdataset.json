@@ -1,0 +1,62 @@
+[
+  {
+    "jobname": "Konstrukteur",
+    "jobdescription": "Entwirft, plant und entwickelt komplexe technische Produkte, Baugruppen und Systeme unter Verwendung moderner CAD-Software. Verantwortlich für die Erstellung technischer Zeichnungen, 3D-Modelle und Prototypen. Prüft die Fertigungstauglichkeit und arbeitet eng mit Produktion, Qualitätssicherung und Einkauf zusammen.",
+    "anforderungen": "Abgeschlossenes Ingenieurstudium Maschinenbau oder vergleichbar, fundierte CAD-Kenntnisse, technisches Verständnis, Erfahrung in Produktentwicklung, Teamfähigkeit, präzises Arbeiten, Kenntnisse in Fertigungstechnologien.",
+    "gehalt": 5000
+  },
+  {
+    "jobname": "Softwareentwickler",
+    "jobdescription": "Plant, entwickelt und testet Softwarelösungen für Web-, Desktop- und Mobilplattformen. Implementiert neue Features, optimiert bestehende Anwendungen, arbeitet mit QA-Teams zusammen, dokumentiert Softwarearchitekturen und führt Code-Reviews durch.",
+    "anforderungen": "Abgeschlossenes Studium Informatik oder vergleichbar, sehr gute Programmierkenntnisse (JavaScript, Python, Java), Erfahrung mit Datenbanken, Kenntnisse in Versionskontrollsystemen (Git), analytisches Denken, Teamfähigkeit, Problemlösungsfähigkeit.",
+    "gehalt": 5500
+  },
+  {
+    "jobname": "Projektmanager",
+    "jobdescription": "Leitet Projekte von der Initiierung bis zum Abschluss, erstellt Projektpläne, definiert Meilensteine, koordiniert Ressourcen und überwacht Fortschritte. Berichtet an Stakeholder, verwaltet Budgets und stellt die Qualitätssicherung sicher.",
+    "anforderungen": "Abgeschlossenes Studium oder vergleichbare Ausbildung, Erfahrung im Projektmanagement, Kenntnisse in PM-Tools (z. B. MS Project, Jira), Organisationstalent, Kommunikationsstärke, Problemlösungsfähigkeiten, Führungserfahrung.",
+    "gehalt": 6000
+  },
+  {
+    "jobname": "Marketing Manager",
+    "jobdescription": "Entwickelt Marketingstrategien zur Steigerung der Markenbekanntheit und Verkaufszahlen. Plant Kampagnen, analysiert Markt- und Wettbewerbsdaten, koordiniert Marketingteams und überwacht Marketingbudgets. Erstellt Content, PR-Materialien und Social-Media-Kampagnen.",
+    "anforderungen": "Abgeschlossenes Marketing-Studium oder vergleichbare Ausbildung, Erfahrung in Kampagnenplanung, Social Media, SEO/SEA Kenntnisse, Kreativität, analytisches Denken, Teamfähigkeit, Erfahrung in Content-Erstellung.",
+    "gehalt": 4800
+  },
+  {
+    "jobname": "Data Analyst",
+    "jobdescription": "Sammelt, analysiert und interpretiert Unternehmensdaten, erstellt Dashboards und Reports, identifiziert Trends und Optimierungspotenziale. Unterstützt Managemententscheidungen durch datenbasierte Insights.",
+    "anforderungen": "Abgeschlossenes Studium in Statistik, Mathematik, Wirtschaftsinformatik oder vergleichbar, Erfahrung mit SQL, Python/R, Excel, Datenvisualisierungstools (z. B. Power BI, Tableau), analytisches Denken, Genauigkeit, Teamfähigkeit.",
+    "gehalt": 5300
+  },
+  {
+    "jobname": "Vertriebsmitarbeiter",
+    "jobdescription": "Akquiriert neue Kunden, pflegt bestehende Kundenbeziehungen, erstellt Angebote, verhandelt Verträge und trägt zur Umsatzsteigerung bei. Setzt Verkaufsstrategien um und berichtet regelmäßig an das Sales-Management.",
+    "anforderungen": "Abgeschlossene kaufmännische Ausbildung oder Studium, Erfahrung im Vertrieb, Kommunikationsstärke, Verhandlungsgeschick, Kundenorientierung, Organisationstalent, Eigenmotivation.",
+    "gehalt": 4200
+  },
+  {
+    "jobname": "Produktdesigner",
+    "jobdescription": "Entwirft funktionale und ästhetische Produkte, erstellt Prototypen, arbeitet eng mit Entwicklung, Produktion und Marketing zusammen. Berücksichtigt ergonomische, technische und ökonomische Aspekte bei der Produktgestaltung.",
+    "anforderungen": "Abgeschlossenes Studium in Produktdesign oder Industriedesign, Kreativität, Erfahrung mit Designsoftware (z. B. Adobe Suite, CAD), technisches Verständnis, Teamarbeit, analytisches Denken, Innovationsfähigkeit.",
+    "gehalt": 4700
+  },
+  {
+    "jobname": "IT-Systemadministrator",
+    "jobdescription": "Verwaltet, überwacht und wartet Netzwerke, Server und IT-Systeme. Implementiert Sicherheitsrichtlinien, führt Backups durch, sorgt für reibungslosen Betrieb und unterstützt Mitarbeiter bei technischen Problemen.",
+    "anforderungen": "Abgeschlossene IT-Ausbildung oder Studium, Erfahrung mit Netzwerken, Servern und Betriebssystemen, Problemlösungskompetenz, Sicherheitskenntnisse, Teamfähigkeit, Organisationstalent.",
+    "gehalt": 5200
+  },
+  {
+    "jobname": "Bauleiter",
+    "jobdescription": "Leitet Bauprojekte vor Ort, überwacht Arbeitsabläufe, koordiniert Teams, prüft Termintreue, Qualität und Sicherheitsvorschriften. Kommuniziert mit Auftraggebern, Architekten und Behörden.",
+    "anforderungen": "Abgeschlossenes Bauingenieurstudium oder vergleichbare Ausbildung, Führungserfahrung, Organisationstalent, Kenntnisse in Baustellenmanagement, rechtliche Kenntnisse, Teamfähigkeit, Problemlösungskompetenz.",
+    "gehalt": 5800
+  },
+  {
+    "jobname": "Pflegefachkraft",
+    "jobdescription": "Betreut und versorgt Patienten in Krankenhäusern oder Pflegeeinrichtungen, dokumentiert Pflegeabläufe, koordiniert Behandlungen und arbeitet eng mit Ärzten und Pflegepersonal zusammen.",
+    "anforderungen": "Abgeschlossene Ausbildung in der Pflege, Empathie, Belastbarkeit, Teamfähigkeit, medizinisches Grundwissen, Organisationstalent, Verantwortungsbewusstsein.",
+    "gehalt": 4000
+  }
+]
